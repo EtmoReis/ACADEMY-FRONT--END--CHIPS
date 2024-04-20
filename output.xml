@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-16T17:52:51.658971" rpa="false" schemaversion="5">
+<suite id="s1" name="Acessar Academy" source="c:\Users\etmom\Desktop\ACADEMY-FRONT- END  CHIPS\TESTS\acessar_academy.robot">
+<test id="s1-t1" name="CT01- ACESSAR Academy" line="5">
+<kw name="Step 1 - Acess page Login Academy" owner="acessar_academy">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-16T17:52:52.367175" level="INFO">Opening browser 'Firefox' to base url 'https://automacao.qacoders-academy.com.br/login'.</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-16T17:52:52.367175" elapsed="38.408385"/>
+</kw>
+<status status="PASS" start="2024-04-16T17:52:52.365172" elapsed="38.448469"/>
+</kw>
+<kw name=" Step 2 - Print login and password and submit" owner="acessar_academy">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-16T17:53:30.888886" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-16T17:53:30.868874" elapsed="0.265774"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-16T17:53:31.135941" level="INFO">Typing text '1234@Test' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-16T17:53:31.134648" elapsed="0.063947"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-04-16T17:53:31.199597" level="INFO">Clicking button 'id=login'.</msg>
+<arg>id=login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-16T17:53:31.198595" elapsed="0.253125"/>
+</kw>
+<status status="PASS" start="2024-04-16T17:53:30.848744" elapsed="0.602976"/>
+</kw>
+<kw name="Step 3 - Verify URL after login" owner="acessar_academy">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${SELECT_BUTTON_SELECTOR}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-16T17:53:31.452720" elapsed="2.250239"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-16T17:53:33.703968" level="INFO">Clicking element '//span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Cadastros')]'.</msg>
+<arg>${SELECT_BUTTON_SELECTOR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-16T17:53:33.702959" elapsed="0.248260"/>
+</kw>
+<status status="PASS" start="2024-04-16T17:53:31.452720" elapsed="2.498499"/>
+</kw>
+<status status="PASS" start="2024-04-16T17:52:52.365172" elapsed="41.588045"/>
+</test>
+<status status="PASS" start="2024-04-16T17:52:51.677034" elapsed="42.283687"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Acessar Academy">Acessar Academy</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

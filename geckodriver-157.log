@@ -1,0 +1,18 @@
+1713115304929	geckodriver	INFO	Listening on 127.0.0.1:61366
+1713115308022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\etmom\\AppData\\Local\\Temp\\rust_mozprofilex10nhJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713115308416	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713115308501	Marionette	INFO	Listening on port 61374
+WebDriver BiDi listening on ws://127.0.0.1:61367
+Read port: 61374
+1713115308667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61367/devtools/browser/49f31339-d787-474b-a4ba-aa79c8f1b015
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+1713115339505	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713115361635	Marionette	INFO	Stopped listening on port 61374
+Dynamically enable window occlusion 1

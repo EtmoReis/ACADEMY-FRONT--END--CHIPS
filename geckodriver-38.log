@@ -1,0 +1,18 @@
+1713028121079	geckodriver	INFO	Listening on 127.0.0.1:63546
+1713028124154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\etmom\\AppData\\Local\\Temp\\rust_mozprofileNAq37v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713028124416	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713028124493	Marionette	INFO	Listening on port 63554
+WebDriver BiDi listening on ws://127.0.0.1:63547
+Read port: 63554
+1713028124631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63547/devtools/browser/20dfc1ee-c8f4-4eb5-b2a1-3b5079f79ce7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+1713028154923	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713028702419	Marionette	INFO	Stopped listening on port 63554
+Dynamically enable window occlusion 1

@@ -1,0 +1,120 @@
+1712588337492	geckodriver	INFO	Listening on 127.0.0.1:60709
+1712588340581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\etmom\\AppData\\Local\\Temp\\rust_mozprofileYLRsNa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712588340878	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712588340950	Marionette	INFO	Listening on port 60722
+WebDriver BiDi listening on ws://127.0.0.1:60710
+Read port: 60722
+1712588341091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60710/devtools/browser/c80e9fd6-7900-4a23-a79c-b935adfba5f3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+1712588370977	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: chrome://browser/content/preferences/moreFromMozilla.js, line 83: TypeError: Region.home is null
+JavaScript error: chrome://mozapps/content/extensions/aboutaddons.js, line 476: TypeError: URL constructor: http://%(server)s/extensions-dummy/repositoryBrowseURL is not a valid URL.
+JavaScript error: resource://devtools/server/actors/inspector/event-collector.js, line 277: TypeError: can't access dead object
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:7700
+xo/</<@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:7788
+oo/<@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:4912
+EventListener.handleEvent*ro@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:4960
+xo/<@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:7769
+fo@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:5712
+xo@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:7534
+@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:8:759
+@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:7:9283
+@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:38:1721
+@https://addons.mozilla.org/static-frontend/amo-9294d73831a19a55b421.js:38:1724
+
+1712588535379	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: "Error writing response to: getWalker"
+console.error: "Error while calling actor 'inspector's method 'getWalker'" "can't access dead object"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/inspector/event-collector.js", 277))
+console.error: "Exception when calling onAvailable handler" "Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: "Failed to start [root-node] legacy listener for target server0.conn0.windowGlobal6442450945/windowGlobalTarget2" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: "Error reading response to: getPageStyle\nTypeError: this.walker is undefined"
+console.error: (new TypeError("this._cssProperties is undefined", "resource://devtools/client/inspector/inspector.js", 537))
+console.error: "Exception when calling onAvailable handler" "Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+console.error: (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 382: Error: Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)
+console.warn: "Error while destroying front:" "inspector" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1712588617074	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Extension error: TypeError: tab is undefined moz-extension://8dc067dc-a10c-478e-b288-f3d504b7442d/extension/background1.js 220
+[[Exception stack
+openPlane@moz-extension://8dc067dc-a10c-478e-b288-f3d504b7442d/extension/background1.js:220:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:735:41
+applySafe@resource://gre/modules/ExtensionCommon.sys.mjs:660:19
+sync@resource://gre/modules/ExtensionCommon.sys.mjs:2800:37
+getAPI/register/listener/<@chrome://browser/content/child/ext-menus.js:280:22
+withHandlingUserInput@resource://gre/modules/ExtensionCommon.sys.mjs:109:12
+listener@chrome://browser/content/child/ext-menus.js:279:36
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:677:24
+fire@resource://gre/modules/ExtensionChild.sys.mjs:821:37
+recvRunListener@resource://gre/modules/ExtensionChild.sys.mjs:825:13
+_recv@resource://gre/modules/ConduitsChild.sys.mjs:77:20
+receiveMessage@resource://gre/modules/ConduitsChild.sys.mjs:189:20
+]]
+1712588891964	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Extension error: TypeError: tab is undefined moz-extension://8dc067dc-a10c-478e-b288-f3d504b7442d/extension/background1.js 220
+[[Exception stack
+openPlane@moz-extension://8dc067dc-a10c-478e-b288-f3d504b7442d/extension/background1.js:220:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:735:41
+applySafe@resource://gre/modules/ExtensionCommon.sys.mjs:660:19
+sync@resource://gre/modules/ExtensionCommon.sys.mjs:2800:37
+getAPI/register/listener/<@chrome://browser/content/child/ext-menus.js:280:22
+withHandlingUserInput@resource://gre/modules/ExtensionCommon.sys.mjs:109:12
+listener@chrome://browser/content/child/ext-menus.js:279:36
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:677:24
+fire@resource://gre/modules/ExtensionChild.sys.mjs:821:37
+recvRunListener@resource://gre/modules/ExtensionChild.sys.mjs:825:13
+_recv@resource://gre/modules/ConduitsChild.sys.mjs:77:20
+receiveMessage@resource://gre/modules/ConduitsChild.sys.mjs:189:20
+]]
+console.error: "Error writing response to: getWalker"
+console.error: "Error while calling actor 'inspector's method 'getWalker'" "can't access dead object"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/inspector/event-collector.js", 277))
+console.error: "Exception when calling onAvailable handler" "Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: "Failed to start [root-node] legacy listener for target server0.conn0.windowGlobal6442450945/windowGlobalTarget2" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: "Error reading response to: getPageStyle\nTypeError: this.walker is undefined"
+console.error: (new TypeError("this._cssProperties is undefined", "resource://devtools/client/inspector/inspector.js", 537))
+console.error: "Exception when calling onAvailable handler" "Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 382: Error: Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2061: TypeError: currentPanel is undefined
+1712588979939	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Extension error: TypeError: tab is undefined moz-extension://8dc067dc-a10c-478e-b288-f3d504b7442d/extension/background1.js 220
+[[Exception stack
+openPlane@moz-extension://8dc067dc-a10c-478e-b288-f3d504b7442d/extension/background1.js:220:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:735:41
+applySafe@resource://gre/modules/ExtensionCommon.sys.mjs:660:19
+sync@resource://gre/modules/ExtensionCommon.sys.mjs:2800:37
+getAPI/register/listener/<@chrome://browser/content/child/ext-menus.js:280:22
+withHandlingUserInput@resource://gre/modules/ExtensionCommon.sys.mjs:109:12
+listener@chrome://browser/content/child/ext-menus.js:279:36
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.sys.mjs:677:24
+fire@resource://gre/modules/ExtensionChild.sys.mjs:821:37
+recvRunListener@resource://gre/modules/ExtensionChild.sys.mjs:825:13
+_recv@resource://gre/modules/ConduitsChild.sys.mjs:77:20
+receiveMessage@resource://gre/modules/ConduitsChild.sys.mjs:189:20
+]]
+1712592941566	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Error while destroying front:" "inspector" (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.windowGlobal6442450945/inspectorActor4 (resource://devtools/server/actors/inspector/event-collector.js:277:22)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1712593215954	Marionette	INFO	Stopped listening on port 60722
+Dynamically enable window occlusion 1

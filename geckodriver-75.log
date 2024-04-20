@@ -1,0 +1,16 @@
+1713035642210	geckodriver	INFO	Listening on 127.0.0.1:50433
+1713035645270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50434" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\etmom\\AppData\\Local\\Temp\\rust_mozprofilebTgbaP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713035645682	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713035645813	Marionette	INFO	Listening on port 50442
+WebDriver BiDi listening on ws://127.0.0.1:50434
+Read port: 50442
+1713035645995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50434/devtools/browser/88fd82bc-45f2-431a-b152-c6862fa434df
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
+1713035661567	Marionette	INFO	Stopped listening on port 50442
+Dynamically enable window occlusion 1
