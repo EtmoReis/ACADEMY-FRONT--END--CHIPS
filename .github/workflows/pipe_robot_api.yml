@@ -1,60 +1,33 @@
+
 name: Robot Framework Tests
 
 on: push
 
 jobs:
   test:
-    name: Testes de api Font End
-    runs-on: ubuntu-latest
+    name: Run Tests
+    runs-on: windows-latest
 
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: https://EtmoReis.github.io/ACADEMY-FRONT--END--CHIPS/report.html
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-    steps: 
-      - name: Clonando repositorio para máquina
-        uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
 
-      - name: Configundo Python na Máquina
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+    - name: Install dependencies
+      run: |
+        pip install robotframework-seleniumlibrary
 
-      - name: Instalação das Dependencias do Projeto 
-        run: |
-          pip install robotframework-seleniumlibrary
-          pip install robotframework
-          pip install robotframework-requests
+    - name: Run Robot Framework TESTS
+      run: |
+        robot -d results tests
 
-      - name: Executando os Tests no Robot 
-        run: |
-         robot -d results TESTS
-
-      - name: Salvando Resultado dos Testes
-       
-        uses: actions/upload-artifact@v4
-       
-        with: 
-          name: robot-framework-report
-          path: results/
-
-      - name: Ferramentas de configuração de páginas 
-        if: ${{always()}}
-        uses: actions/configure-pages@v2
-       
- 
-      - name:  Carregando resultados de Testes
-        if: ${{always()}}
-        uses: actions/upload-pages-artifact@v1
-        
-        with:
-          path: results/
- 
-      - name: Subindo Pagina Web com Resultados 
-        id: deployment
-        uses: actions/deploy-pages@v1
-        if: always()
+    - name: Archive Robot Framework results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: robot-results
+        path: ./results
