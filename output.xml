@@ -1,66 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-21T16:36:26.668528" rpa="false" schemaversion="5">
-<suite id="s1" name="Acessar Academy" source="c:\Users\etmom\Desktop\ACADEMY_FRONT_END_CHIPS\TESTS\acessar_academy.robot">
-<test id="s1-t1" name="CT01- ACESSAR Academy" line="5">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-21T17:45:41.660679" rpa="false" schemaversion="5">
+<suite id="s1" name="Put Alterar Usuario &amp; Put Alterar Usuario">
+<suite id="s1-s1" name="Put Alterar Usuario" source="c:\Users\etmom\Desktop\ACADEMY_FRONT_END_CHIPS\TESTS\put_alterar_usuario.robot">
+<test id="s1-s1-t1" name="CT01-To Alter Registrer new User" line="9">
 <kw name="Step 1 - Acess page Login Academy" owner="acessar_academy">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-04-21T16:36:26.969850" level="INFO">Opening browser 'Firefox' to base url 'https://automacao.qacoders-academy.com.br/login'.</msg>
+<msg time="2024-04-21T17:45:41.884703" level="INFO">Opening browser 'Firefox' to base url 'https://automacao.qacoders-academy.com.br/login'.</msg>
 <arg>url=${URL}</arg>
 <arg>browser=${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-04-21T16:36:26.969850" elapsed="8.819434"/>
+<status status="PASS" start="2024-04-21T17:45:41.884703" elapsed="6.768894"/>
 </kw>
-<status status="PASS" start="2024-04-21T16:36:26.968851" elapsed="8.820433"/>
+<status status="PASS" start="2024-04-21T17:45:41.883689" elapsed="6.770910"/>
 </kw>
 <kw name=" Step 2 - Print login and password and submit" owner="acessar_academy">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-04-21T16:36:35.792284" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<msg time="2024-04-21T17:45:48.657595" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
 <arg>id=email</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-04-21T16:36:35.791287" elapsed="0.092482"/>
+<status status="PASS" start="2024-04-21T17:45:48.656602" elapsed="0.086039"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-04-21T16:36:35.884770" level="INFO">Typing text '1234@Test' into text field 'id=password'.</msg>
+<msg time="2024-04-21T17:45:48.743637" level="INFO">Typing text '1234@Test' into text field 'id=password'.</msg>
 <arg>id=password</arg>
 <arg>${PASSWORD}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-04-21T16:36:35.884770" elapsed="0.028000"/>
+<status status="PASS" start="2024-04-21T17:45:48.742641" elapsed="0.025009"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-04-21T16:36:35.913769" level="INFO">Clicking button 'id=login'.</msg>
+<msg time="2024-04-21T17:45:48.768648" level="INFO">Clicking button 'id=login'.</msg>
 <arg>id=login</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-04-21T16:36:35.912770" elapsed="0.238273"/>
+<status status="PASS" start="2024-04-21T17:45:48.768648" elapsed="0.242079"/>
 </kw>
-<status status="PASS" start="2024-04-21T16:36:35.790290" elapsed="0.361752"/>
+<status status="PASS" start="2024-04-21T17:45:48.655606" elapsed="0.356117"/>
 </kw>
 <kw name="Step 3 - Verify URL after login" owner="acessar_academy">
 <kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
 <arg>${SELECT_BUTTON_SELECTOR}</arg>
 <doc>Waits until the element ``locator`` appears on the current page.</doc>
-<status status="PASS" start="2024-04-21T16:36:36.153042" elapsed="1.631978"/>
+<status status="PASS" start="2024-04-21T17:45:49.012731" elapsed="1.439320"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-04-21T16:36:37.786024" level="INFO">Clicking element '//span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Cadastros')]'.</msg>
+<msg time="2024-04-21T17:45:50.453052" level="INFO">Clicking element '//span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Cadastros')]'.</msg>
 <arg>${SELECT_BUTTON_SELECTOR}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-04-21T16:36:37.785020" elapsed="0.249003"/>
+<status status="PASS" start="2024-04-21T17:45:50.453052" elapsed="0.237995"/>
 </kw>
-<status status="PASS" start="2024-04-21T16:36:36.152042" elapsed="1.881981"/>
+<status status="PASS" start="2024-04-21T17:45:49.011723" elapsed="1.679324"/>
 </kw>
-<status status="PASS" start="2024-04-21T16:36:26.968851" elapsed="11.065172"/>
+<kw name="Step 4 - To alter User" owner="alterar_usuario">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${SELECT_BUTTON_USERS}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-21T17:45:50.692042" elapsed="0.003004"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:50.696041" level="INFO">Clicking element '//span[contains(.,'Usuários')]'.</msg>
+<arg>${SELECT_BUTTON_USERS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:50.695046" elapsed="0.213141"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${EDIT_TEXT}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-21T17:45:50.909187" elapsed="1.020880"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:51.930067" level="INFO">Clicking element '(//button[@name='editar'][contains(.,'Editar')])[1]'.</msg>
+<arg>${EDIT_TEXT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:51.930067" elapsed="0.229850"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=fullName</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.159917" elapsed="0.011001"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:52.170918" level="INFO">Typing text 'Esther Rodrigues dos Reis' into text field 'id=fullName'.</msg>
+<arg>id=fullName</arg>
+<arg>Esther Rodrigues dos Reis</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.170918" elapsed="0.071165"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:52.243085" level="INFO">Sending key(s) ('\\t',) to id=fullName element.</msg>
+<msg time="2024-04-21T17:45:52.532312" level="INFO">Sending keys \t</msg>
+<arg>id=fullName</arg>
+<arg>\\t</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.242083" elapsed="0.300227"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=mail</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.542310" elapsed="0.021490"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:52.564807" level="INFO">Typing text 'esther@qacoders.com.br' into text field 'id=mail'.</msg>
+<arg>id=mail</arg>
+<arg>esther@qacoders.com.br</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.563800" elapsed="0.038562"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:52.603342" level="INFO">Clicking element '//button[@type='submit'][contains(.,'SALVAR ALTERAÇOES')]'.</msg>
+<arg>${SAVE_TXT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.603342" elapsed="0.237941"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:45:50.692042" elapsed="2.149241"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:45:41.870124" elapsed="10.972163"/>
 </test>
-<status status="PASS" start="2024-04-21T16:36:26.674523" elapsed="11.360501"/>
+<status status="PASS" start="2024-04-21T17:45:41.681281" elapsed="11.161999"/>
+</suite>
+<suite id="s1-s2" name="Put Alterar Usuario" source="c:\Users\etmom\Desktop\ACADEMY_FRONT_END_CHIPS\tests\put_alterar_usuario.robot">
+<test id="s1-s2-t1" name="CT01-To Alter Registrer new User" line="9">
+<kw name="Step 1 - Acess page Login Academy" owner="acessar_academy">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:52.854284" level="INFO">Opening browser 'Firefox' to base url 'https://automacao.qacoders-academy.com.br/login'.</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-21T17:45:52.854284" elapsed="6.415851"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:45:52.853285" elapsed="6.416850"/>
+</kw>
+<kw name=" Step 2 - Print login and password and submit" owner="acessar_academy">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:59.272135" level="INFO">Typing text 'sysadmin@qacoders.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:59.271147" elapsed="0.096144"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:59.367291" level="INFO">Typing text '1234@Test' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:59.367291" elapsed="0.025099"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:45:59.392390" level="INFO">Clicking button 'id=login'.</msg>
+<arg>id=login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:45:59.392390" elapsed="0.233878"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:45:59.271147" elapsed="0.355121"/>
+</kw>
+<kw name="Step 3 - Verify URL after login" owner="acessar_academy">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${SELECT_BUTTON_SELECTOR}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-21T17:45:59.628267" elapsed="1.428405"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:01.057672" level="INFO">Clicking element '//span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Cadastros')]'.</msg>
+<arg>${SELECT_BUTTON_SELECTOR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:01.056672" elapsed="0.226413"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:45:59.627270" elapsed="1.655815"/>
+</kw>
+<kw name="Step 4 - To alter User" owner="alterar_usuario">
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${SELECT_BUTTON_USERS}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-21T17:46:01.284092" elapsed="0.002994"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:01.288096" level="INFO">Clicking element '//span[contains(.,'Usuários')]'.</msg>
+<arg>${SELECT_BUTTON_USERS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:01.288096" elapsed="0.213622"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${EDIT_TEXT}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-04-21T17:46:01.502718" elapsed="0.815160"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:02.318890" level="INFO">Clicking element '(//button[@name='editar'][contains(.,'Editar')])[1]'.</msg>
+<arg>${EDIT_TEXT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:02.317878" elapsed="0.241444"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=fullName</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:02.560334" elapsed="0.010520"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:02.571859" level="INFO">Typing text 'Esther Rodrigues dos Reis' into text field 'id=fullName'.</msg>
+<arg>id=fullName</arg>
+<arg>Esther Rodrigues dos Reis</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:02.570854" elapsed="0.066978"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:02.638823" level="INFO">Sending key(s) ('\\t',) to id=fullName element.</msg>
+<msg time="2024-04-21T17:46:02.953570" level="INFO">Sending keys \t</msg>
+<arg>id=fullName</arg>
+<arg>\\t</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2024-04-21T17:46:02.638823" elapsed="0.328746"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=mail</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:02.968576" elapsed="0.025903"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:02.995477" level="INFO">Typing text 'esther@qacoders.com.br' into text field 'id=mail'.</msg>
+<arg>id=mail</arg>
+<arg>esther@qacoders.com.br</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:02.994479" elapsed="0.038335"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T17:46:03.034822" level="INFO">Clicking element '//button[@type='submit'][contains(.,'SALVAR ALTERAÇOES')]'.</msg>
+<arg>${SAVE_TXT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T17:46:03.033823" elapsed="0.228425"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:46:01.284092" elapsed="1.978156"/>
+</kw>
+<status status="PASS" start="2024-04-21T17:45:52.853285" elapsed="10.409963"/>
+</test>
+<status status="PASS" start="2024-04-21T17:45:52.845281" elapsed="10.418968"/>
+</suite>
+<status status="PASS" start="2024-04-21T17:45:41.664746" elapsed="21.601503"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Acessar Academy">Acessar Academy</stat>
+<stat pass="2" fail="0" skip="0" id="s1" name="Put Alterar Usuario &amp; Put Alterar Usuario">Put Alterar Usuario &amp; Put Alterar Usuario</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Put Alterar Usuario">Put Alterar Usuario &amp; Put Alterar Usuario.Put Alterar Usuario</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Put Alterar Usuario">Put Alterar Usuario &amp; Put Alterar Usuario.Put Alterar Usuario</stat>
 </suite>
 </statistics>
 <errors>

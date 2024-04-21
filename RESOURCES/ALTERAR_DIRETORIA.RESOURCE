@@ -11,15 +11,20 @@ Resource  ../RESOURCES/CRIAR_DIRETORIA.RESOURCE
 *** Variables ***
 ${SELECTION_DIRETORIAS}  //span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig'][contains(.,'Diretorias')]
 ${SELECTION_CADASTRO_DIRETORIA}  //button[@class='css-fvzsut'][contains(.,'Novo Cadastro')]
-${SEARCH_DIRETORIA_TXT}   //input[contains(@class,'MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng')]
-${DIRETORIA_NAME_TXT}  //input[contains(@class,'MuiInputBase-input MuiInput-input css-mnn31')]
+${SEARCH_DIRETORIA_TXT}   (//button[@name='editar'][contains(.,'Editar')])[28]
+${DIRETORIA_NAME_TXT}   (//button[@name='editar'][contains(.,'Editar')])[1]
+${CLEAR}     //input[contains(@class,'MuiInputBase-input MuiInput-input css-mnn31')]
+${SUBMIT}  //button[@type='submit'][contains(.,'SALVAR ALTERAÇOES')]
 
 *** Keywords ***
 
 Step 5 - Acess SEARCH DIRETORIA
 
   Wait Until Element Is Visible    locator=${SEARCH_DIRETORIA_TXT}
-  Input Text                       locator=${SEARCH_DIRETORIA_TXT}                      text=${NAME_DIRETORIA}     
+  Click Element                    locator=${SEARCH_DIRETORIA_TXT}
+  Clear Element Text               locator=${CLEAR}
+  Input Text                       locator=${CLEAR}                      text=IPANEMA     
+  Click Element    locator=${SUBMIT}
     
 
     
