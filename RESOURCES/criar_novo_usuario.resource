@@ -24,9 +24,9 @@ Step 5 - Create New User Full Name
     Log                     ${FULL_NAME}
     Input Text     ${FULL_NAME_TEXT}         ${FULL_NAME}
 Step 6 - Create New User MAIL
-    ${palavra_randomica}    Generate Random String    length=8    chars=[LETTERS]
+    ${palavra_randomica}    Generate Random String    length=10    chars=[LETTERS]
     ${palavra_randomica}    Convert To Lower Case     ${palavra_randomica}
-    Set Test Variable       ${MAIL}             ${palavra_randomica}@qacoders.com.br
+    Set Test Variable       ${MAIL}             ${palavra_randomica}2@qacoders.com.br
     Log                     ${MAIL}
    Input Text     ${MAIL_TEXT}              ${MAIL}
 
@@ -40,7 +40,7 @@ Step 7 - Register a CPF
 Step 8 - Create New Password
     ${palavra_randomica}    Generate Random String    length=2    chars=[LETTERS]
     ${palavra_randomica}    Convert To Lower Case     ${palavra_randomica}
-    Set Test Variable       ${PASSWORD}             ${palavra_randomica}M@1234
+    Set Test Variable       ${PASSWORD}               Test@1234
     Log                     ${PASSWORD}
    Input Password    ${PASSWORD_TEXT}       ${PASSWORD}
    Input Password   ${CONFIRM_PASS_TEXT}    ${PASSWORD}

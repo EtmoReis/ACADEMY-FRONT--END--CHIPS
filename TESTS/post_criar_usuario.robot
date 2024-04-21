@@ -16,7 +16,7 @@ CT01-Create and Registrer new User
   Step 5 - Create New User Full Name
   Step 6 - Create New User MAIL
   Step 7 - Register a CPF
-   Step 8 - Create New Password - 8 characters
+  Step 8 - Create New Password - 8 characters
   Step 9 - Create Acess Profile
   Step 10 - verify Password - 8 characters
 
@@ -75,35 +75,7 @@ CT03-Create and Registrer new User
   Step 9 - Create Acess Profile
   Step 10 - verify Password blank
 
-
-CT06-Create and Registrer new User ********BUG No Uppercase******** 
-  Step 1 - Acess page Login Academy
-  Step 2 - Print login and password and submit
-  Step 3 - Verify URL after login
-  Step 4 - Acess Users
-  Step 5 - Acess Users
-  Step 5 - Create New User Full Name
-  Step 6 - Create New User MAIL
-  Step 7 - Register a CPF
-  Step 8 - Create New Password no uppercase letters
-  Step 9 - Create Acess Profile
-  Step 10 - verify Password no uppercase letters
-
-
-CT06-Create and Registrer new User ********BUG Uppercase********
-  Step 1 - Acess page Login Academy
-  Step 2 - Print login and password and submit
-  Step 3 - Verify URL after login
-  Step 4 - Acess Users
-  Step 5 - Acess Users
-  Step 5 - Create New User Full Name
-  Step 6 - Create New User MAIL
-  Step 7 - Register a CPF
-  Step 8 - Create New Password uppercase letters
-  Step 9 - Create Acess Profile
-  Step 10 - verify Password uppercase letters
-
- CT07-Create and Registrer new User
+CT06-Create and Registrer new User
   Step 1 - Acess page Login Academy
   Step 2 - Print login and password and submit
   Step 3 - Verify URL after login
@@ -118,7 +90,7 @@ CT06-Create and Registrer new User ********BUG Uppercase********
 
 
 
-CT08-Create and Registrer new User
+CT07-Create and Registrer new User
   Step 1 - Acess page Login Academy
   Step 2 - Print login and password and submit
   Step 3 - Verify URL after login
