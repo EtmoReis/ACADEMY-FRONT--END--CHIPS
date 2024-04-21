@@ -32,7 +32,7 @@ jobs:
 
       - name: Executando os Tests no Robot 
         run: |
-          robot --name "Resultado Testes Front-End" --outputdir results/ TESTS/
+          robot --name "Resultado Testes Front-End" --outputdir results/ tests/
 
       - name: Salvando Resultado dos Testes
        
