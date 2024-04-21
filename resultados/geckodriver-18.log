@@ -13,3 +13,5 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
 1713711524264	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713713503236	Marionette	INFO	Stopped listening on port 53441
+Dynamically enable window occlusion 1

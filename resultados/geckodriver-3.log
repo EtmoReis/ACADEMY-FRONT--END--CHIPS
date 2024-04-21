@@ -13,3 +13,32 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automacao.qacoders-academy.com.br."
 1713711360120	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+[GFX[GF1X1-]: CompositorBridgeChild receive[GFX1s- IPC close with reason]=AbnormalS-]: Compo: CompositorBridgeChild receives IPC close with reason=Abnormshutdown
+itorBridgeChild recalShutdown
+eives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[Parent 15468, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:349
+[GFX1-]: GPU process is being launched whilst app is in background
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[Parent 15468, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:349
+[GFX1-]: GPU process is being launched whilst app is in background
+[GFX[GFX1-]: CompositorBridgeChild recei1-][GFv: CXome1pos-]: Co smIipPC tositorBroclorsi[GdgFX1eBe-]: wr itCompoCidgshildieh tCorecr ehBrrilidid receeagivesvson=A IPCeebChs Iin Plod rcClo closrece withesm iverea ealwsiS tIhutPhsdoown
+n=AC bn reacsoormlosnae=l AbwSihtnoh rerason=AmalSbutdowhnuontd
+own
+rmalShutdown
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+[GFX1-]: IPC Channel is already torn down unexpectedly
+
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1713713502398	Marionette	INFO	Stopped listening on port 52813
+Dynamically enable window occlusion 1
