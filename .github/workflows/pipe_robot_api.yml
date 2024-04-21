@@ -27,7 +27,8 @@ jobs:
       - name: Instalação das Dependencias do Projeto 
         run: |
           pip install robotframework-seleniumlibrary
-          
+          pip install robotframework
+          pip install robotframework-requests
 
       - name: Executando os Tests no Robot 
         run: |
