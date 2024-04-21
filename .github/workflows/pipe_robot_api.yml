@@ -26,8 +26,6 @@ jobs:
 
       - name: Instalação das Dependencias do Projeto 
         run: |
-          pip install robotframework
-          pip install robotframework-requests
           pip install robotframework-seleniumlibrary
           
 
@@ -36,19 +34,22 @@ jobs:
           robot --name "Resultado Testes Front-End" --outputdir results/ TESTS/
 
       - name: Salvando Resultado dos Testes
+       
         uses: actions/upload-artifact@v4
-        if: always()
+       
         with: 
           name: robot-framework-report
           path: results/
 
       - name: Ferramentas de configuração de páginas 
+        if: ${{always()}}
         uses: actions/configure-pages@v2
-        if: always()
+       
  
       - name:  Carregando resultados de Testes
+        if: ${{always()}}
         uses: actions/upload-pages-artifact@v1
-        if: always()
+        
         with:
           path: results/
  
