@@ -1,5 +1,5 @@
-resultados 
-.log
-.xml
-.html
-.png
+/.vscode/
+/resultados/
+**.log
+**.html
+**.xml
