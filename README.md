@@ -1,4 +1,10 @@
 <h1>Projeto POC: Automação e Teste de Frontend com Robot Framework</h1>
+
+<p align="center">
+  <img src="https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/8c2c2059-2375-4618-a902-4c927adc3f66" width="400" alt="Imagem 1">
+  <img src="https://github.com/EtmoReis/Testes-de-API-com-Robot-Chips-academy-api-robot/assets/160361258/7fda053e-b459-48a8-a13b-efd911cf36ef" width="400" alt="Imagem 2">
+</p>
+
 <p>Durante nossa colaboração com a instituição QA Coders, tivemos a oportunidade de realizar uma prova de conceito (POC) para demonstrar a eficácia da automação e teste de interfaces de usuário (frontend) utilizando o Robot Framework.</p>
 <p>Nosso objetivo principal era mostrar como o Robot Framework pode ser uma ferramenta poderosa para automatizar testes de frontend, proporcionando eficiência, confiabilidade e manutenção simplificada.</p>
 <p>Durante o projeto, trabalhamos em estreita colaboração com a equipe da QA Coders para identificar os casos de teste mais críticos e relevantes para a aplicação em questão. Em seguida, desenvolvemos e implementamos scripts de automação utilizando o Robot Framework para executar esses testes de forma automatizada.</p>
