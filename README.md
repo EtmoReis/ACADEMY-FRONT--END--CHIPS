@@ -23,10 +23,11 @@ Git
   <li><strong>Integração com Ferramentas de CI/CD (opcional):</strong> Integre os testes de frontend no pipeline de CI/CD usando ferramentas como Jenkins, Travis CI, GitLab CI, etc.</li>
   <li><strong>Manutenção e Atualização dos Testes:</strong> Mantenha os testes de frontend atualizados com as mudanças na interface do usuário e faça ajustes conforme necessário.</li>
 </ol>
+
+
+
 Projeto Desenvolvido por: 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137322187?v=4" width=90><br/><sub>Danielle Sousa</sub>](https://github.com/rhswire)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daniellesousadads/)](https://www.linkedin.com/in/daniellesousadads/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/116200326?v=4" width=90><br/><sub>Karine Bueno</sub>](https://github.com/karinebueno)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/karinebueno-quality-assurance-tester/)](https://www.linkedin.com/in/karinebueno-quality-assurance-tester/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/93127535" width=90><br/><sub>Raquel Swire Guimarães</sub>](https://github.com/rhswire)<br/>[![Linkedin Badge](https://img.shields.io/badg
-
-
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/YourGitHubIDHere" width=90><br/><sub>Your Name</sub>](https://github.com/EtmoReis)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/etmo-reis-bb46bb26a/)](https://www.linkedin.com/in/etmo-reis-bb46bb26a/) |
 
 
 
