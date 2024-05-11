@@ -27,8 +27,7 @@ Git
 
 
 Projeto Desenvolvido por: 
-Projeto Desenvolvido por: 
-| [<img loading="lazy" src="https://www.linkedin.com/in/etmo-reis-bb46bb26a/" width=90><br/><sub>Etmo Reis </sub>](https://github.com/EtmoReis)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/etmo-reis-bb46bb26a/)](https://www.linkedin.com/in/etmo-reis-bb46bb26a/) |
+| [<img loading="lazy" src="https://github.com/EtmoReis" width=90><br/><sub>Etmo Reis </sub>](https://github.com/EtmoReis)<br/>[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/etmo-reis-bb46bb26a/)](https://www.linkedin.com/in/etmo-reis-bb46bb26a/) |
 
 
 
